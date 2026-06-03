@@ -10,7 +10,7 @@ You're stronger than you think and more loved than you realize. ❤️
 hug: `
 🤗 Virtual Hug Delivered.
 
-Close your eyes for a second and imagine someone holding your hand and reminding you that everything will be okay. 🌸
+Close your eyes for a second and imagine your Kuchuuuupuchuuu holding your hand and telling you, "You're going to be okay." ❤️ 🌸
 `,
 
 sleep: `
