@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Butterscotch (Dibbi) 💌</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="hearts"></div>
+
+<!-- HERO -->
+<section class="hero">
+
+<img src="photos/hero.jpg" class="hero-img">
+
+<h1>For My Butterscotch (Dibbi) 💌</h1>
+
+<p class="subtitle">
+A little corner of the internet made with love, just for you.
+</p>
+
+<button id="musicBtn">
+🎵 Play Music
+</button>
+
+</section>
+
+<!-- MEMORIES -->
+<section class="memories">
+
+<h2>Our Memories 📸</h2>
+
+<div class="gallery">
+
+<div class="card">
+<img src="photos/hero.jpg">
+<p>One of my favorite smiles ❤️</p>
+</div>
+
+<div class="card">
+<img src="photos/hands.jpg">
+<p>A hand I'll always hold close to my heart 🤍</p>
+</div>
+
+<div class="card">
+<img src="photos/cafe.jpg">
+<p>Moments that quietly became memories ✨</p>
+</div>
+
+<div class="card">
+<img src="photos/sleep.jpg">
+<p>One of the calmest moments ever 🌙</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- OPEN WHEN -->
+<section class="open-when">
+
+<h2>Open When... 💌</h2>
+
+<div class="buttons">
+
+<button onclick="showMessage('sad')">
+😔 You're Sad
+</button>
+
+<button onclick="showMessage('hug')">
+🤗 You Need A Hug
+</button>
+
+<button onclick="showMessage('sleep')">
+🌙 Before Sleeping
+</button>
+
+<button onclick="showMessage('miss')">
+💭 You Miss Me
+</button>
+
+</div>
+
+<div id="messageBox"></div>
+
+</section>
+
+<!-- TEDDY -->
+<section class="teddy-section">
+
+<h2>Teddy Corner 🧸</h2>
+
+<div id="teddy">
+🧸
+</div>
+
+<p>Tap Teddy For A Surprise</p>
+
+</section>
+
+<!-- SECRET LETTER -->
+
+<section class="secret">
+
+<h2>Secret Letter 🔒</h2>
+
+<button onclick="toggleLetter()">
+Open Letter 💌
+</button>
+
+<div id="letter">
+
+<p>
+Hi Dibbi ❤️
+<br><br>
+
+If you're reading this, then you've opened a tiny place that was made especially for you.
+
+I may not always find the perfect words, but there is one thing I never struggle to feel — gratitude for having you in my life.
+
+Whenever the day feels heavy, whenever things seem confusing, or whenever you simply need a familiar corner, you can come here.
+
+I hope this little website reminds you how valued, appreciated and cared for you are.
+
+Please keep smiling, keep dreaming and keep being the wonderful person you are.
+
+And if life ever feels overwhelming...
+
+Take a deep breath.
+
+You are stronger than you think.
+
+🌸
+
+— Sohan, your Kuchuuuupuchuuu ❤️
+
+</p>
+
+</div>
+
+</section>
+
+<!-- REMINDER POPUP -->
+
+<div id="popup">
+💌 Tiny Reminder: You're precious.
+</div>
+
+<audio id="bgMusic" loop>
+<source src="music/love.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
