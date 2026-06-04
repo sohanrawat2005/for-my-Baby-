@@ -59,12 +59,14 @@ const babyMusic = document.getElementById("babyMusic");
 
 
 const babyBtn = document.getElementById("babyBtn");
-alert("Script Working");
-musicBtn.addEventListener("click",()=>{
 
+musicBtn.addEventListener("click",()=>{
+babyMusic.pause();
+babyMusic.currentTime = 0;
+babyBtn.innerHTML = "🎀 For My Baby";
 if(music.paused){
 music.play();
-musicBtn.innerHTML="⏸ Pause Jaan";
+musicBtn.innerHTML="🩷 Playing Jaan";
 }else{
 music.pause();
 musicBtn.innerHTML="🌷 For My Jaan";
@@ -76,10 +78,24 @@ babyBtn.addEventListener("click", () => {
 if(babyMusic.paused){
 
 music.pause();
+music.currentTime = 0;
+musicBtn.innerHTML = "🌷 For My Jaan";
+
 babyMusic.play();
 
-babyBtn.innerHTML = "💖 Pause Baby";
-musicBtn.innerHTML="🌷 For My Jaan";
+babyBtn.innerHTML = "🩷 Playing Baby";
+musicBtn.innerHTML = "🌷 For My Jaan";
+
+}else{
+
+babyMusic.pause();
+
+babyBtn.innerHTML = "🎀 For My Baby";
+
+}
+
+
+
 
 }else{
 
