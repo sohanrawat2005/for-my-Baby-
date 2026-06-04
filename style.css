@@ -76,9 +76,11 @@ margin-left:10px;
 
 #babyBtn:hover{
 transform:scale(1.05);
+background:#9edcff;
 }
 #musicBtn:hover{
 transform:scale(1.05);
+background:#9edcff;
 }
 
 .memories{
