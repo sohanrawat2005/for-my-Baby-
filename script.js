@@ -55,25 +55,31 @@ behavior:"smooth"
 
 const music = document.getElementById("bgMusic");
 const musicBtn = document.getElementById("musicBtn");
+
 const babyMusic = document.getElementById("babyMusic");
-
-
 const babyBtn = document.getElementById("babyBtn");
 
 musicBtn.addEventListener("click",()=>{
+
+if(music.paused){
+
 babyMusic.pause();
 babyMusic.currentTime = 0;
 babyBtn.innerHTML = "🎀 For My Baby";
-if(music.paused){
+
 music.play();
-musicBtn.innerHTML="🩷 Playing Jaan";
+musicBtn.innerHTML = "🩷 Playing Jaan";
+
 }else{
+
 music.pause();
-musicBtn.innerHTML="🌷 For My Jaan";
+musicBtn.innerHTML = "🌷 For My Jaan";
+
 }
 
 });
-babyBtn.addEventListener("click", () => {
+
+babyBtn.addEventListener("click",()=>{
 
 if(babyMusic.paused){
 
@@ -82,24 +88,17 @@ music.currentTime = 0;
 musicBtn.innerHTML = "🌷 For My Jaan";
 
 babyMusic.play();
-
 babyBtn.innerHTML = "🩷 Playing Baby";
-musicBtn.innerHTML = "🌷 For My Jaan";
 
 }else{
 
 babyMusic.pause();
-
 babyBtn.innerHTML = "🎀 For My Baby";
 
 }
 
-
-
-
-
-
 });
+
 /* TEDDY */
 
 let teddyCount = 0;
@@ -168,18 +167,13 @@ reminders[
 Math.floor(Math.random()*reminders.length)
 ];
 
-popup.style.display="block";
+popup.style.display = "block";
 
 setTimeout(()=>{
-popup.style.display="none";
+popup.style.display = "none";
 },5000);
 
 }
 
-/* First popup after 15 sec */
-
 setTimeout(showReminder,15000);
-
-/* Then every 3 min */
-
 setInterval(showReminder,180000);
