@@ -68,7 +68,25 @@ musicBtn.innerHTML="🎵 Play Music";
 }
 
 });
+babyBtn.addEventListener("click", () => {
 
+if(babyMusic.paused){
+
+music.pause();
+babyMusic.play();
+
+babyBtn.innerHTML = "💖 Pause Baby";
+musicBtn.innerHTML = "🎵 For My Jaan";
+
+}else{
+
+babyMusic.pause();
+
+babyBtn.innerHTML = "🎀 For My Baby";
+
+}
+
+});
 /* TEDDY */
 
 let teddyCount = 0;
