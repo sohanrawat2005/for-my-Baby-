@@ -55,7 +55,8 @@ behavior:"smooth"
 
 const music = document.getElementById("bgMusic");
 const musicBtn = document.getElementById("musicBtn");
-
+const babyMusic = document.getElementById("babyMusic");
+const babyBtn = document.getElementById("babyBtn");
 musicBtn.addEventListener("click",()=>{
 
 if(music.paused){
