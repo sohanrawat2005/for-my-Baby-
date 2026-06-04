@@ -97,13 +97,7 @@ babyBtn.innerHTML = "🎀 For My Baby";
 
 
 
-}else{
 
-babyMusic.pause();
-
-babyBtn.innerHTML = "🎀 For My Baby";
-
-}
 
 });
 /* TEDDY */
