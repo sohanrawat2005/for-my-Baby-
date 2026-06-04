@@ -56,6 +56,8 @@ behavior:"smooth"
 const music = document.getElementById("bgMusic");
 const musicBtn = document.getElementById("musicBtn");
 const babyMusic = document.getElementById("babyMusic");
+console.log(babyMusic);
+console.log(babyBtn);
 const babyBtn = document.getElementById("babyBtn");
 musicBtn.addEventListener("click",()=>{
 
