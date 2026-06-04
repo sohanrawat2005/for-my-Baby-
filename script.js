@@ -152,3 +152,21 @@ setTimeout(showReminder,15000);
 /* Then every 3 min */
 
 setInterval(showReminder,180000);
+babyBtn.addEventListener("click",()=>{
+
+if(babyMusic.paused){
+
+music.pause();
+musicBtn.innerHTML="🎵 For My Jaan";
+
+babyMusic.play();
+babyBtn.innerHTML="⏸️ Playing For My Baby";
+
+}else{
+
+babyMusic.pause();
+babyBtn.innerHTML="🎀 For My Baby";
+
+}
+
+});
