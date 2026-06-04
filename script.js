@@ -61,10 +61,10 @@ musicBtn.addEventListener("click",()=>{
 
 if(music.paused){
 music.play();
-musicBtn.innerHTML="⏸ Pause Music";
+musicBtn.innerHTML="⏸ Pause Jaan";
 }else{
 music.pause();
-musicBtn.innerHTML="🎵 Play Music";
+musicBtn.innerHTML="🌷 For My Jaan";
 }
 
 });
