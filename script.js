@@ -76,7 +76,7 @@ music.pause();
 babyMusic.play();
 
 babyBtn.innerHTML = "💖 Pause Baby";
-musicBtn.innerHTML = "🎵 For My Jaan";
+musicBtn.innerHTML="🌷 For My Jaan";
 
 }else{
 
