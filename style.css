@@ -60,7 +60,21 @@ color:white;
 font-size:16px;
 cursor:pointer;
 }
+#babyBtn{
+margin-top:20px;
+padding:12px 22px;
+border:none;
+border-radius:30px;
+background:#ff7aa2;
+color:white;
+font-size:16px;
+cursor:pointer;
+margin-left:10px;
+}
 
+#babyBtn:hover{
+transform:scale(1.05);
+}
 #musicBtn:hover{
 transform:scale(1.05);
 }
